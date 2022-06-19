@@ -2,41 +2,113 @@
 <html lang="en">
 
 <head>
+  <title></title>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ravindra - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./public/main.css">
 </head>
 
-<body class="bg-gray-800 dark:bg-slate-800 bg-gray-100 dark:text-slate-200">
-  <nav class="bg-gray-200 dark:bg-slate-900 py-4 text-slate-900 dark:text-gray-200">
-    <div class="container flex justify-between mx-auto">
-      <span>
-        Ravindra - Portfolio
-      </span>
-      <ul class="flex space-x-2">
-        <li>About</li>
-        <li>Projects</li>
-        <li>Skill</li>
-        <li>Contact</li>
-        <li>Blog</li>
+<body>
+  <!-- Nav start -->
+  <nav class="flex justify-center bg-slate-800 text-gray-200 py-4">
+    <div class="flex flex-row justify-between container">
+      <span>Portfolio - Ravindra</span>
+      <ul class='flex flex-row'>
+        <li class="px-2">About</li>
+        <li class="px-2">Projects</li>
+        <li class="px-2">Skills</li>
+        <li class="px-2">Experiences</li>
       </ul>
     </div>
   </nav>
-  <main class="container mx-auto mt-10">
-    <!-- Intro div start -->
-    <div>
-      <h1 class="text-6xl font-semibold">Ravindra</h1>
-      <h2 class="text-6xl font-semibold text-gray-600 dark:text-slate-400 mt-2">I build software</h2>
-      <p class="my-5 text-gray-600 dark:text-slate-400 w-1/2">
-        Hi, I am Ravindra, A self taught full stackoverflow developer currently working on
-        creating fast, secure and scalable backends to solve real world problems
-      </p>
+  <!-- Nav end -->
+
+  <!-- Intro start -->
+  <div class="flex justify-center">
+    <div class="container my-10">
+      <div class="h-64 flex flex-col items-center justify-center">
+        <h1 class="text-6xl my-5 font-semibold">Ravindra Kumar</h1>
+        <p class="text-gray-800 text-2xl">
+          I build backend in <strong>NodeJS</strong> &amp; <strong>PHP</strong>, frontend in
+          <strong>Vue</strong> and learning <strong>Flutter</strong> to build apps.
+        </p>
+      </div>
     </div>
-    <!-- Intro div end -->
-  </main>
-  <footer class="container mx-auto">This is footer</footer>
+  </div>
+  <!-- Intro end -->
+
+  <!-- About start -->
+  <div class="flex justify-center">
+    <div class="container">
+      <h3 class="text-4xl font-medium text-center my-4">About</h3>
+      <div class="flex">
+        <p class="text-xl">
+          Hi, I am Ravindra Kumar and I am a software engineer,
+          I have been building websites for 4+ years now,
+          I am a full stack developer with preference to backend development using NodeJS,
+          I focus on writing <strong>fast</strong>, <strong>safe</strong>, <strong>secure</strong> and <strong>scalable</strong> code.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- About end -->
+
+  <!-- Projects start -->
+  <div class="flex justify-center my-8">
+    <div class="container">
+      <h3 class="text-4xl font-medium text-center my-4">Projects</h3>
+      <!-- Project grid start -->
+      <div class="flex flex-wrap justify-center">
+        <div class="w-full md:w-1/3 p-3">
+          <div class="bg-gray-200 rounded shadow p-5">
+            <h3 class="text-xl font-medium text-center my-4">Peymynt</h3>
+            <p class="text-xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, quidem.
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/3 p-3">
+          <div class="bg-gray-200 rounded shadow p-5">
+            <h3 class="text-xl font-medium text-center my-4">Brahma</h3>
+            <p class="text-xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, quidem.
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/3 p-3">
+          <div class="bg-gray-200 rounded shadow p-5">
+            <h3 class="text-xl font-medium text-center my-4">PC Sudhar</h3>
+            <p class="text-xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, quidem.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Project grid end -->
+    </div>
+  </div>
+  <!-- Projects end -->
+
+  <!-- Skills start -->
+  <div class="flex justify-center">
+    <div class="container">
+      <h3 class="text-4xl font-medium text-center my-4">Skills</h3>
+      <div class="flex">
+        <p class="text-xl">
+          NodeJS
+          PHP
+          Vue
+          Flutter
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Skills end -->
 </body>
 
 </html>
